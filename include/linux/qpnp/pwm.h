@@ -157,6 +157,9 @@ int pwm_config_us(struct pwm_device *pwm,
  */
 int pwm_enable_synchronized(struct pwm_device **pwms, size_t num);
 
+
+void call_vibrate(int vibrate);
+
 /* Standard APIs supported */
 /*
  * pwm_request - request a PWM device
